@@ -1,0 +1,61 @@
+main{
+    background-image: linear-gradient( #00000080, #00000080 ), url(img/about-app.jpg);
+    background-size: cover;
+
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+
+h1{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFA500;
+}
+
+.title{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    padding-top: 50px;
+}
+
+.information p{
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 24px;
+    line-height: 2;
+    padding-bottom: 50px;   
+}
+
+.information{
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px){
+    .information p{
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .title{
+        padding-top: 25px;
+    }
+    h1{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .content{
+        grid-template-columns: 1fr;
+    }
+}
