@@ -1,0 +1,82 @@
+.contact_us{
+    border: 10px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#contact_us {
+    background-image: url(img/contact_us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 91vh;
+}
+
+.formulario {
+    margin-left: 10%;
+    width: 600px;
+    background-color: #333333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #FFA500;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+
+    background: linear-gradient(to right, #FFA500, #FFD700);
+
+}
+
+#title-contact_us {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    #contact_us {
+        height: auto;
+        justify-content: center;
+    }
+
+    .formulario {
+        margin: 0;
+        width: 50%;
+        margin-top: 25%; 
+    }
+}
