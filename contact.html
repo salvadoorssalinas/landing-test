@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CargoWatch</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">
+        <a href="home.html" class="logo">
             <img src="img/logo.png" alt="icon-CargoWatch">
             <span id = "logo-text">CargoWatch</span>
         </a>
@@ -30,6 +29,35 @@
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
+
+    <main>
+        
+        <div id = "contact_us">
+            <div class="formulario">
+
+                <div id="title-contact_us">
+                    <h1>Contact Us</h1>
+                </div>
+                
+                <form action="#" method="post">
+                    <label for="nombre">Name:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+            
+                    <label for="apellidos">Last Name:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="mensaje">Messaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+            
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+
+    </main>
 
     <footer>
         <h4 class="footer-text">CargoWatch - comprehensive solutions</h4> 
