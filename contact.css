@@ -18,6 +18,8 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: 91vh;
+
+    padding-top: 100px;
 }
 
 .formulario {
@@ -29,7 +31,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
 
 
 input[type="text"], input[type="email"], textarea {
